@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/opt/pkg/opencv_openeuler
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.4.9
+Libs: -L${exec_prefix}/lib -lopencv_stitching -lopencv_ml -lopencv_videostab -lopencv_photo -lopencv_superres -lopencv_shape -lopencv_video -lopencv_objdetect -lopencv_calib3d -lopencv_features2d -lopencv_dnn -lopencv_flann -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc -lopencv_core
+Libs.private: -ldl -lm -lpthread -lrt
+Cflags: -I${includedir_old} -I${includedir_new}

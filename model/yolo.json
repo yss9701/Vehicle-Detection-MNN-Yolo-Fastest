@@ -1,0 +1,19 @@
+{
+    "format":"RGB",
+    "mean":[
+        0.0,
+        0.0,
+        0.0
+    ],
+    "normal":[
+        0.00392,
+        0.00392,
+        0.00392
+    ],
+    "width":256,
+    "height":256,
+    "path":"/home/yss/mnn_project/img_car",
+    "used_image_num":100,
+    "feature_quantize_method":"KL",
+    "weight_quantize_method":"MAX_ABS"
+}
