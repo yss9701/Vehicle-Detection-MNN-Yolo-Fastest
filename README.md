@@ -7,7 +7,7 @@
 
 #### 软件架构
 
-**目录说明：**
+目录说明：
 
 ./lib为部署于开发板的动态链接库，需放置于开发板/usr/lib目录下，或放置于其他目录下并[指定搜索路径](https://blog.csdn.net/zong596568821xp/article/details/90297360)。
 
@@ -19,13 +19,13 @@
 
 ./demo为车辆检测结果展示，视频左上角展示出车辆计数与检测帧率。
 
-**硬件环境：**Firefly-RK3399开发板
+硬件环境：Firefly-RK3399开发板
 
-**开发环境：**Ubuntu16.04，Qt 5.12.9，gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu，MobaXterm 11.0
+开发环境：Ubuntu16.04，Qt 5.12.9，gcc-linaro-4.9.4-2017.01-x86_64_aarch64-linux-gnu，MobaXterm 11.0
 
-**模型训练：**TensorFlow-gpu 2.2
+模型训练：TensorFlow-gpu 2.2
 
-**模型部署：**MNN 1.0.2，OpenCV 3.4.9，protobuf 3.12.0，gcc/g++ 4.9
+模型部署：MNN 1.0.2，OpenCV 3.4.9，protobuf 3.12.0，gcc/g++ 4.9
 
 
 #### 安装教程
